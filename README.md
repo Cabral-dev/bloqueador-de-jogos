@@ -8,6 +8,10 @@ Um software em Python para **autobloqueio de jogos e aplicações** durante hor�
 
 Este projeto foi desenvolvido com foco em disciplina pessoal. Ele monitora continuamente os processos em execução no Windows durante horários pré-determinados e encerra automaticamente qualquer jogo ou aplicativo listado como distração, registrando a tentativa e exibindo um aviso na tela.
 
+<p align="center">
+  <img src="./assets/Exemplo.png" alt="Aviso de Acesso Negado" width="450">
+</p>
+
 ### Diferenciais & Arquitetura
 
 - **Vigilância Mútua (Dois Scripts):** O projeto utiliza uma arquitetura de processo duplo (`main.py` e `guardiao.py`). Se você tentar encerrar um dos processos pelo Gerenciador de Tarefas, o outro o ressuscita em menos de 1 segundo.
