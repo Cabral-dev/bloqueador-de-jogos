@@ -37,46 +37,47 @@ Este projeto foi desenvolvido com foco em disciplina pessoal. Ele monitora conti
 ```bash
 pip install psutil
 
-1. Clonar e Estruturar a Pasta
+```
+### 1. Clonar e Estruturar a Pasta
 Clone este repositório ou baixe os arquivos.
 
 Mova a pasta do projeto para o diretório raiz C:\Bloqueador (para garantir a compatibilidade com os caminhos definidos nos scripts).
 
-2. Configurar a Inicialização Automática no Windows
+### 2. Configurar a Inicialização Automática no Windows
 Pressione Win + R no teclado, digite shell:startup e pressione Enter.
 
 Cole o arquivo main.bat contido neste repositório dentro da pasta de Inicialização do Windows.
 
 O arquivo main.bat contém as seguintes instruções:
-
-DOS
+```cmd
 @echo off
 cd /d "C:\Bloqueador"
 start /b pythonw guardiao.py
 start /b pythonw main.py
-Tecnologias Utilizadas
-Python 3
+```
+## Tecnologias Utilizadas
+- Python 3
 
-Tkinter (Interface gráfica nativa)
+- Tkinter (Interface gráfica nativa)
 
-psutil (Gerenciamento e inspeção de processos do sistema)
+- psutil (Gerenciamento e inspeção de processos do sistema)
 
-Batch Script (Automação de boot no Windows)
+- Batch Script (Automação de boot no Windows)
 
-Aplicativos Bloqueados por Padrão
+## Aplicativos Bloqueados por Padrão
 Por padrão, a lista de monitoramento contempla os executáveis:
 
-Roblox (robloxplayerbeta.exe)
+- Roblox (robloxplayerbeta.exe)
 
-Hydra Launcher (hydra.exe)
+- Hydra Launcher (hydra.exe)
 
-Minecraft (minecraft.exe)
+- Minecraft (minecraft.exe)
 
-TLauncher (tlauncher.exe)
+- TLauncher (tlauncher.exe)
 
-Steam (steam.exe)
+- Steam (steam.exe)
 
 Para adicionar ou remover jogos, basta alterar a variável JOGOS no topo do arquivo main.py.
 
-Licença
+## Licença
 Este projeto está sob a licença MIT. Sinta-se livre para adaptar a lógica para o seu próprio fluxo de estudos e rotina!
