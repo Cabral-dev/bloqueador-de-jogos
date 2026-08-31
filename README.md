@@ -80,4 +80,3 @@ Para adicionar ou remover jogos, basta alterar a variável JOGOS no topo do arqu
 
 Licença
 Este projeto está sob a licença MIT. Sinta-se livre para adaptar a lógica para o seu próprio fluxo de estudos e rotina!
-```bash
